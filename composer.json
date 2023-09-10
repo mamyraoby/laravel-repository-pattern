@@ -21,7 +21,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Raoby\\Providers\\ExtensionServiceProvider"
+                "Raoby\\Providers\\ExtensionServiceProvider",
+                "Raoby\\Providers\\AutoBoundServiceProvider"
             ]
         }
     }
