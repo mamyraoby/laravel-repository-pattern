@@ -1,7 +1,14 @@
 {
     "name": "mamyraoby/laravel-repository-pattern",
     "type": "library",
-    "description": "Laravel repository pattern extension",
+    "description": "Repository pattern extension for Laravel 10",
+    "authors": [
+        {
+            "name": "Mamy Raobelina",
+            "email": "mamyraoby@outlook.com",
+            "role": "Main developer"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "laravel/framework": "^10.10"
