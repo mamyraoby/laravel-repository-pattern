@@ -1,0 +1,21 @@
+{
+    "name": "mamyraoby/laravel-repository-pattern",
+    "type": "library",
+    "description": "Laravel repository pattern extension",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raoby\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raoby\\Providers\\ExtensionServiceProvider"
+            ]
+        }
+    }
+}

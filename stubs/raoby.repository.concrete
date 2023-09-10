@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ NAMESPACE }};
+
+use {{ CONTRACT_NAMESPACE }}\{{ CONTRACT_CLASSNAME }};
+use Raoby\Repositories\EloquentRepository;
+
+class {{ CLASSNAME }} extends EloquentRepository implements {{ CONTRACT_CLASSNAME }}
+{
+}
