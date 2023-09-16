@@ -66,7 +66,7 @@ trait CommandTrait
     public function getNamespace(string $rootNamespace, string $inputName): string
     {
         $className = Str::afterLast($inputName, '/');
-        $namespace = $this->replaceSlash($rootNamespace . '\\' . Str::replaceLast($className, '', $inputName, '\\'), '\\');
+        $namespace = $this->replaceSlash($rootNamespace . Str::replaceLast($className, '', $inputName, '\\'), '\\');
 
         return Str::endsWith($namespace, '\\')
             ? Str::replaceLast('\\', '', $namespace)
